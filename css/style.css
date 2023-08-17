@@ -1,0 +1,117 @@
+body {
+    font-family: sans-serif;
+}
+
+p {
+    text-align: center;
+    font-size: 16px;
+    color: #000;
+}
+
+h2 {
+    text-align: center;
+    font-size: 35px;
+    color: #000;
+    font-weight: bold;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+}
+
+pre {
+    display: block;
+    font-size: 16px;
+    font-family: sans-serif;
+    color: #000;
+    text-align: left;
+}
+
+header {
+    background-color: #BDD8F1;
+    color: #214177;
+    text-align: center;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.input-section {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    display: block;
+    margin-bottom: 6px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #001C30;
+}
+
+input {
+    padding: 10px;
+    border: 4px solid #7895CB;
+    border-radius: 10px;
+    font-size: 16px;
+    outline: none;
+}
+
+input:focus {
+    border-color: #A0BFE0;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: #FFFFFF;
+    background-color: #213555;
+    justify-items: center;
+}
+
+button:hover {
+    background-color: #4F709C;
+    color: #FFFFFF;
+}
+
+button:active {
+    transform: translateX(1px);
+    border-color: #C5DFF8;
+}
+
+#HasilLuas {
+    width: 300px;
+    height: 35px;
+    background-color: #DDE6ED;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid #9DB2BF;
+    border-radius: 5px;
+}
+
+#HasilKeliling {
+    width: 300px;
+    height: 35px;
+    background-color: #DDE6ED;
+    margin-top: 0;
+    padding-top: 0;
+    font-size: 20px;
+    text-align: center;
+    border: 2px solid #9DB2BF;
+    border-radius: 5px;
+}
+
+footer {
+    text-align: center;
+    margin-top: 10px;
+}

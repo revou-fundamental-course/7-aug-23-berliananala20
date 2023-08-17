@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Kalkulator Segitiga</title>
+</head>
+<body>
+    <p>
+        <h2>- Welcome to Katik -</h2>
+    </p>
+    <p>Halo sobat! Selamat datang di Katik</p>
+    <p>Sebuah web apps sederhana yang berfungsi untuk menghitung nilai luas dan keliling segitiga.</p>
+
+    <br>
+
+    <header>
+        <h1>Luas Segitiga</h1>
+    </header>
+    <img src="assets/segitigasamasisi.png" />
+    <p style="text-align: left">Rumus Luas Segitiga:</p>
+    <p style="text-align: center"><b>L = 1/2 x a x t</b></p>
+    <pre>
+        Deskripsi:
+        L = Luas
+        a = Alas
+        t = Tinggi
+    </pre>
+
+    <main>
+        <section class="input-section">
+            <label for="tinggi-input">Tinggi Segitiga</label>
+            <input type="number" id="tinggiInputLuas" placeholder="0" />
+            <label for="alas-input">Alas Segitiga</label>
+            <input type="number" id="alasInputLuas" placeholder="0">
+        </section>
+        <br>
+        <section>
+            <button id="HitungLuas">Hitung</button>
+            <button id="ResetLuas">Reset</button>
+        </section>
+        <br>
+        <br>
+        <section class="HasilSegitiga">
+            <label>Hasil Luas</label>
+            <h5 id="HasilLuas"></h5>
+        </section>
+    </main>
+
+        <br>
+        <hr>
+
+        <header>
+            <h1>Keliling Segitiga</h1>
+        </header>
+        <img src="assets/segitigasamasisi.png" />
+        <p style="text-align: left">Rumus Keliling Segitiga:</p>
+        <p><b>K = S1 + S2 + S3</b></p>
+        <pre>
+            Deskripsi:
+            S1 = Sisi A
+            S2 = Sisi B
+            S3 = Sisi C
+        </pre>
+
+        <main>
+            <section class="input-section">
+                <label for="Sisi-a-Input">Sisi A</label>
+                <input type="number" id="SisiAInput" placeholder="0" />
+                <label for="Sisi-b-Input">Sisi B</label>
+                <input type="number" id="SisiBInput" placeholder="0" />
+                <label for="Sisi-c-Input">Sisi C</label>
+                <input type="number" id="SisiCInput" placeholder="0" />
+            </section>
+            <br>
+            <section>
+                <button id="HitungKeliling">Hitung</button>
+                <button id="ResetKeliling">Reset</button>
+            </section>
+            <br>
+            <br>
+            <section class="HasilSegitiga">
+                <label>Hasil Keliling</label>
+                <h5 id="HasilKeliling"></h5>
+                
+                <footer>@Project Kalkulator Segitiga by Berliana Nala Cantika</footer>
+        </main>
+            <script src="JS/index.js"></script>
+</body>
+</html>
